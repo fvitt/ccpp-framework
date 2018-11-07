@@ -22,7 +22,9 @@ SCHEME_FILES_DEPENDENCIES = []
 # Add all physics scheme files relative to basedir
 SCHEME_FILES = [
     'MICM_chemistry/src/kinetics.F90',
-    'MICM_chemistry/src/chem_solve.F90'
+    'MICM_chemistry/src/chem_solve.F90',
+    'MICM_chemistry/src/tuv/tuv_photolysis.F90',
+    'MICM_chemistry/src/photolysis_interstitial.F90'
     ]
 
 # Auto-generated makefile/cmakefile snippets that contain all schemes
